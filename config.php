@@ -1,9 +1,9 @@
 <?php
 // ===== Konfigurasi =====
-const DB_HOST = 'localhost';
-const DB_NAME = 'mytg1554_laporan_sales';
-const DB_USER = 'mytg1554_laporan_sales';
-const DB_PASS = 'KZ,L=p]Wj$9,!vK[';
+define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
+define('DB_NAME', getenv('DB_NAME') ?: '');
+define('DB_USER', getenv('DB_USER') ?: '');
+define('DB_PASS', getenv('DB_PASS') ?: '');
 
 const APP_NAME = 'Pantes Sales Report';
 
