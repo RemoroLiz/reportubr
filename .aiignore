@@ -1,0 +1,6 @@
+assets/js/vendor/
+uploads/
+cache/
+backup/
+*.zip
+*.log
